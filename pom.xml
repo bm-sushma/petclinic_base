@@ -517,7 +517,7 @@
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
                 <jdbc.url>jdbc:mysql://10.0.1.48:3306/petclinic?serverTimezone=UTC</jdbc.url>
-                <jdbc.username>petclinic</jdbc.username>
+                <jdbc.username>root</jdbc.username>
                 <jdbc.password>MySql@123</jdbc.password>
             </properties>
             <dependencies>
