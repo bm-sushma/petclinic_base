@@ -474,7 +474,16 @@
                     </to>
                 </configuration>
             </plugin>
-
+         <plugin>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat7-maven-plugin</artifactId>
+    <version>2.2</version>
+    <configuration>
+        <url>http://54.69.137.122:8090/manager/text</url>
+        <server>Catalina</server>
+        <path>/digirest</path>
+    </configuration>
+</plugin>
         </plugins>
     </build>
 
